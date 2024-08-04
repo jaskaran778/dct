@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="navbar fixed top-0 left-0 w-full flex flex-wrap items-center h-fit">
+    <div className="navbar  top-0 left-0 w-full flex flex-wrap items-center h-fit">
       <div className="logo-container">
         <a href="https://www.linkedin.com/company/data-culture-technolgies/">
           <Image
@@ -17,7 +17,6 @@ export default function Navbar() {
           />
         </a>
       </div>
-      <NavbarDemo />
     </div>
   );
 }
